@@ -1,0 +1,12 @@
+League: Canadian Football League, CFL
+	Division: division, West Division, West
+		Team: BC, BC, Lions
+		Team: CGY, Calgary, Stampeders
+		Team: EDM, Edmonton, Eskimos
+		Team: SSK, Saskatchewan, Roughriders
+		Team: WPG, Winnipeg, Blue Bombers
+	Division: division, East Division, East
+		Team: HAM, Hamilton, Tiger-Cats
+		Team: MTL, Montreal, Alouettes
+		Team: OTT, Ottawa, RedBlacks
+		Team: TOR, Toronto, Argonauts

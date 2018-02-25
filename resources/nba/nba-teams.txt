@@ -1,0 +1,39 @@
+League: National Basketball Association, NBA
+	Division: conference, Eastern Conference, East
+		Division: division, Atlantic Division, Atlantic
+			Team: BOS, Boston, Celtics
+			Team: BRK, Brooklyn, Nets
+			Team: NYK, New York, Knicks
+			Team: PHI, Philadelphia, 76ers
+			Team: TOR, Toronto, Raptors
+		Division: division, Central Division, Central
+			Team: CHI, Chicago, Bulls
+			Team: CLE, Cleveland, Cavaliers
+			Team: DET, Detroit, Pistons
+			Team: IND, Indiana, Pacers
+			Team: MIL, Milwaukee, Bucks
+		Division: division, Southeast Division, Southeast
+			Team: ATL, Atlanta, Hawks
+			Team: CHA, Charlotte, Hornets
+			Team: MIA, Miami, Heat
+			Team: ORL, Orlando, Magic
+			Team: WAS, Washington, Wizards
+	Division: conference, Western Conference, West
+		Division: division, Northwest Division, Northwest
+			Team: DEN, Denver, Nuggets
+			Team: MIN, Minnesota, Timberwolves
+			Team: OKC, Oklahoma City, Thunder
+			Team: POR, Portland, Trail Blazers
+			Team: UTA, Utah, Jazz
+		Division: division, Pacific Division, Pacific
+			Team: GSW, Golden State, Warriors
+			Team: LAC, Los Angeles, Clippers
+			Team: LAL, Los Angeles, Lakers
+			Team: PHO, Phoenix, Suns
+			Team: SAC, Sacramento, Kings
+		Division: division, Southwest Division, Southwest
+			Team: DAL, Dallas, Mavericks
+			Team: HOU, Houston, Rockets
+			Team: MEM, Memphis, Grizzlies
+			Team: NOP, New Orleans, Pelicans
+			Team: SAS, San Antonio, Spurs
