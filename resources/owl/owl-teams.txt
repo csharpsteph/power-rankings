@@ -1,0 +1,15 @@
+League: Overwatch League, OWL
+	Division: division, Atlantic Division, ATL
+		Team: BOS, Boston, Uprising
+		Team: FLA, Florida, Mayhem
+		Team: HOU, Houston, Outlaws
+		Team: LND, London, Spitfire
+		Team: NYXL, New York, Excelsior
+		Team: PHI, Philadelphia, Fusion
+	Division: division, Pacific Division, PAC
+		Team: DAL, Dallas, Fuel
+		Team: LAG, Los Angeles, Gladiators
+		Team: LAV, Los Angeles, Valiant
+		Team: SF, San Francisco, Shock
+		Team: SEO, Seoul, Dynasty
+		Team: SHA, Shanghai, Dragons

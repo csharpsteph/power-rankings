@@ -12,24 +12,14 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class GenerateGraph implements java.io.Serializable {
+/**
+ * @author Cody J. Stephens ({@code https://github.com/csharpsteph/})
+ */
+public class GenerateGraph implements java.io.Serializable, Runnable {
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -2839416749758944677L;
 	private File source, output;
-	
-	GenerateGraph(File source, File output) throws FileNotFoundException
-	{
-		this.source = source;
-		this.output = output;
-		if (!source.exists())
-		{
-			throw new FileNotFoundException(String.format(
-					"Could not find specified file: %s", source.getName()));
-		}
-	}
 
 	public void writeOutput() throws FileNotFoundException, IOException
 	{
@@ -49,6 +39,8 @@ public class GenerateGraph implements java.io.Serializable {
 			typeEndIndex = line.indexOf(':');
 			if (typeEndIndex < 0)
 			{
+				ostream.close();
+				istream.close();
 				throw new RuntimeException("No node type found. Type must be followed by a colon (:).");
 			}
 			numTabs = 0;
@@ -125,23 +117,36 @@ public class GenerateGraph implements java.io.Serializable {
 	}
 
 	public static void main(String[] args) throws IOException {
+		new GenerateGraph().run();
+	}
+
+	@Override
+	public void run() {
 		String leagueNames[] = {"cfl", "owl", "nba"};
 		
 		for (String s: leagueNames)
 		{
-			//if (s.equals("cfl")) continue;
-			//if (s.equals("nba")) continue;
-			//if (s.equals("owl")) continue;
-			File source = new File("C:/Users/codys/resource-dump/" + s + "-teams.txt");
-			File output = new File("C:/Users/codys/resource-dump/" + s + "-graph.dat");
-			GenerateGraph graph = new GenerateGraph(source, output);
-			graph.writeOutput();
+			File source = new File("resources/" + s + "/" + s + "-teams.txt");
+			File output = new File("resources/" + s + "/" + s + "-graph.dat");
+			try {
+				this.source = source;
+				this.output = output;
+				if (!source.exists())
+				{
+					System.out.printf("Could not find specified file: %s\n", source.getName());
+				}
+				writeOutput();
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();	
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
-		
 	}
 	
 }
 
+// Convenience class, pairing a node with a tab level
 class NodeLevelPair {
 	Node<String> node;
 	int level;

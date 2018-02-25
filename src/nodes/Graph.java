@@ -1,12 +1,17 @@
 package nodes;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.util.ArrayDeque;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * @author Cody J. Stephens ({@code https://github.com/csharpsteph/})
+ */
+
+/* 
+ * This graph class represents a graph whose nodes can take any number of children.
+ */
 
 public class Graph<T extends Comparable<T>> implements java.io.Serializable {
 	/**
@@ -41,7 +46,7 @@ public class Graph<T extends Comparable<T>> implements java.io.Serializable {
 		return findNode(root, key);
 	}
 	
-	public Node<T> findNode(Node<T> root, T key)
+	private Node<T> findNode(Node<T> root, T key)
 	{
 		if (root == null) return null;
 		Collection<Node<T>> forest = new ArrayDeque<>();
@@ -55,37 +60,31 @@ public class Graph<T extends Comparable<T>> implements java.io.Serializable {
 					return node;
 				}
 			}
-			forest = getSuccessors(forest);
+			forest = Node.getChildren(forest);
 		}
 		
 		return null;
 	}
 	
-	public Collection<Node<T>> getSuccessors(Collection<Node<T>> nodes)
+	public List<Node<T>> getLeaves()
 	{
-		Collection<Node<T>> successors = new ArrayDeque<>();
-		for (Node<T> n: nodes)
-		{
-			if (n == null) continue;
-			successors.addAll(n.getChildren());
-		}
-		return successors;
+		return root.getLeaves();
 	}
 	
-	public Collection<Node<T>> getNodesAtLevel(int level)
+	public List<Node<T>> getNodesAtLevel(int level)
 	{
 		if (root == null) 
 		{
 			throw new RuntimeException("Root is null");
 		}
 		
-		Collection<Node<T>> forest = new ArrayDeque<>();
+		List<Node<T>> forest = new LinkedList<>();
 		forest.add(root);
 		int currentLevel = 0;
 		
 		while (currentLevel++ < level)
 		{
-			forest = getSuccessors(forest);
+			forest = Node.getChildren(forest);
 			if (forest.isEmpty())
 			{
 				throw new RuntimeException(String.format(
@@ -95,16 +94,4 @@ public class Graph<T extends Comparable<T>> implements java.io.Serializable {
 		
 		return forest;
 	}
-	/*
-	@SuppressWarnings("unchecked")
-	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
-		java.io.File teamDataSource = new java.io.File("C:/Users/codys/resource-dump/nba-graph.dat");
-		ObjectInputStream istream = new ObjectInputStream(new FileInputStream(teamDataSource));
-		Graph<String>teamGraph = (Graph<String>)istream.readObject();
-		istream.close();
-		
-		Node<String> atl = teamGraph.findNode(teamGraph.getRoot(), "TEAM_ATL");
-		System.out.println(atl);
-	}*/
-	
 }

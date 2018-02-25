@@ -1,0 +1,342 @@
+Stage 1 - Week 1
+Date: Wed Jan 10 2018
+SF 0 LAV 4
+SHA 0 LAG 4
+DAL 1 SEO 2
+Date: Thu Jan 11 2018
+LND 3 FLA 1
+PHI 3 HOU 2
+BOS 1 NYXL 3
+Date: Fri Jan 12 2018
+LAV 3 DAL 0
+FLA 0 BOS 4
+SF 3 SHA 1
+Date: Sat Jan 13 2018
+LND 4 PHI 0
+NYXL 3 HOU 1
+SEO 4 LAG 0
+Stage 1 - Week 2
+Date: Wed Jan 17 2018
+SF 1 PHI 2
+FLA 0 SEO 4
+HOU 4 SHA 0
+Date: Thu Jan 18 2018
+DAL 0 HOU 4
+NYXL 3 LAV 0
+PHI 2 LAG 3
+Date: Fri Jan 19 2018
+SEO 4 BOS 0
+SHA 0 FLA 4
+LND 3 DAL 1
+Date: Sat Jan 20 2018
+LAV 2 LND 3
+LAG 0 NYXL 4
+BOS 2 SF 3
+Stage 1 - Week 3
+Date: Wed Jan 24 2018
+SF 1 LND 3
+SHA 1 SEO 3
+LAG 2 LAV 3
+Date: Thu Jan 25 2018
+BOS 3 LND 2
+PHI 3 NYXL 2
+HOU 4 FLA 0
+Date: Fri Jan 26 2018
+SEO 2 NYXL 3
+SHA 2 PHI 3
+DAL 3 SF 0
+Date: Sat Jan 27 2018
+DAL 2 BOS 3
+LAV 3 FLA 1
+LAG 0 HOU 4
+Stage 1 - Week 4
+Date: Wed Jan 31 2018
+LAV 4 PHI 0
+FLA 1 LAG 3
+HOU 3 SF 1
+Date: Thu Feb 1 2018
+PHI 4 DAL 0
+NYXL 4 SHA 0
+LND 4 SEO 0
+Date: Fri Feb 2 2018
+SF 4 FLA 0
+SEO 3 HOU 2
+LAG 0 BOS 4
+Date: Sat Feb 3 2018
+SHA 0 LND 4
+DAL 1 NYXL 3
+BOS 4 LAV 0
+Stage 1 - Week 5
+Date: Wed Feb 7 2018
+SHA 2 DAL 3
+SF 1 LAG 3
+LAV 3 SEO 0
+Date: Thu Feb 8 2018
+PHI 0 BOS 4
+FLA 0 NYXL 3
+LND 1 HOU 3
+Date: Fri Feb 9 2018
+LAG 1 DAL 3
+SEO 3 SF 2
+LAV 4 SHA 0
+Date: Sat Feb 10 2018
+NYXL 3 LND 2
+HOU 3 BOS 2
+FLA 2 PHI 3
+LND 3 HOU 1 *
+LND 3 NYXL 2 *
+Stage 2 - Week 1
+Date: Wed Feb 21 2018
+SEO 4 LAV 0
+DAL 3 SHA 1
+LAG 4 SF 0
+Date: Thu Feb 22 2018
+HOU 3 LND 2
+NYXL 3 FLA 1
+BOS 0 PHI 4
+Date: Fri Feb 23 2018
+LND 3 NYXL 2
+DAL 3 LAG 1
+SF 1 SEO 3
+Date: Sat Feb 24 2018
+PHI 4 FLA 0
+BOS 0 HOU 4
+SHA 0 LAV 3
+Stage 2 - Week 2
+Date: Wed Feb 28 2018
+SEO - DAL -
+LAV - SF -
+LAG - SHA -
+Date: Thu Mar 1 2018
+FLA - LND -
+HOU - PHI -
+NYXL - BOS -
+Date: Fri Mar 2 2018
+BOS - FLA -
+LAG - SEO -
+DAL - LAV -
+Date: Sat Mar 3 2018
+PHI - LND -
+HOU - NYXL -
+SHA - SF -
+Stage 2 - Week 3
+Date: Wed Mar 7 2018
+SEO - SHA -
+SF - DAL -
+LAV - LAG -
+Date: Thu Mar 8 2018
+PHI - SEO -
+HOU - LAV -
+BOS - SHA -
+Date: Fri Mar 9 2018
+LND - BOS -
+NYXL - PHI -
+FLA - HOU -
+Date: Sat Mar 10 2018
+LND - LAG -
+NYXL - SF -
+FLA - DAL -
+Stage 2 - Week 4
+Date: Wed Mar 14 2018
+BOS - DAL -
+NYXL - SEO -
+PHI - SHA -
+Date: Thu Mar 15 2018
+SHA - NYXL -
+FLA - LAV -
+HOU - LAG -
+Date: Fri Mar 16 2018
+LAG - FLA -
+LND - SF -
+LAV - BOS -
+Date: Sat Mar 17 2018
+SEO - LND -
+SF - HOU -
+DAL - PHI -
+Stage 2 - Week 5
+Date: Wed Mar 21 2018
+LAG - PHI -
+FLA - SF -
+SHA - HOU -
+Date: Thu Mar 22 2018
+HOU - SEO -
+NYXL - DAL -
+SF - BOS -
+Date: Fri Mar 23 2018
+SEO - FLA -
+PHI - LAV -
+LND - SHA -
+Date: Sat Mar 24 2018
+DAL - LND -
+LAV - NYXL -
+BOS - LAG -
+Stage 3 - Week 1
+Date: Wed Apr 4 2018
+SHA - DAL -
+LAV - SEO -
+SF - LAG -
+Date: Thu Apr 5 2018
+FLA - NYXL -
+PHI - BOS -
+LND - HOU -
+Date: Fri Apr 6 2018
+LAG - DAL -
+LAV - SHA -
+SEO - SF -
+Date: Sat Apr 7 2018
+FLA - PHI -
+HOU - BOS -
+NYXL - LND -
+Stage 3 - Week 2
+Date: Wed Apr 11 2018
+SHA - LAG -
+SF - LAV -
+DAL - SEO -
+Date: Thu Apr 12 2018
+BOS - NYXL -
+LND - FLA -
+PHI - HOU -
+Date: Fri Apr 13 2018
+LAV - DAL -
+SF - SHA -
+SEO - LAG -
+Date: Sat Apr 14 2018
+LND - PHI -
+NYXL - HOU -
+FLA - BOS -
+Stage 3 - Week 3
+Date: Wed Apr 18 2018
+LAG - LAV -
+DAL - SF -
+SHA - SEO -
+Date: Thu Apr 19 2018
+HOU - FLA -
+BOS - LND -
+PHI - NYXL -
+Date: Fri Apr 20 2018
+PHI - SF -
+FLA - SHA -
+BOS - SEO -
+Date: Sat Apr 21 2018
+LND - LAV -
+NYXL - LAG -
+HOU - DAL -
+Stage 3 - Week 4
+Date: Wed Apr 25 2018
+SHA - BOS -
+LAV - HOU -
+DAL - FLA -
+Date: Thu Apr 26 2018
+LAG - LND -
+SF - NYXL -
+SEO - PHI -
+Date: Fri Apr 27 2018
+DAL - BOS -
+LAG - HOU -
+LAV - FLA -
+Date: Sat Apr 28 2018
+SF - LND -
+SEO - NYXL -
+SHA - PHI -
+Stage 3 - Week 5
+Date: Wed May 2 2018
+PHI - DAL -
+FLA - LAG -
+HOU - SF -
+Date: Thu May 3 2018
+SF - FLA -
+BOS - LAV -
+DAL - NYXL -
+Date: Fri May 4 2018
+LAG - BOS -
+NYXL - SHA -
+LND - SEO -
+Date: Sat May 5 2018
+SHA - LND -
+SEO - HOU -
+LAV - PHI -
+Stage 4 - Week 1
+Date: Wed May 16 2018
+LAG - SF -
+SEO - LAV -
+DAL - SHA -
+Date: Thu May 17 2018
+BOS - PHI -
+NYXL - FLA -
+HOU - LND -
+Date: Fri May 18 2018
+DAL - LAG -
+BOS - HOU -
+SF - SEO -
+Date: Sat May 19 2018
+PHI - FLA -
+SHA - LAV -
+LND - NYXL -
+Stage 4 - Week 2
+Date: Wed May 23 2018
+BOS - DAL -
+FLA - LAV -
+HOU - LAG -
+Date: Thu May 24 2018
+LND - SF -
+LAG - FLA -
+PHI - SHA -
+Date: Fri May 25 2018
+LAV - BOS -
+NYXL - SEO -
+SF - HOU -
+Date: Sat May 26 2018
+SEO - LND -
+SHA - NYXL -
+DAL - PHI -
+Stage 4 - Week 3
+Date: Wed May 30 2018
+NYXL - PHI -
+SEO - SHA -
+LAV - LAG -
+Date: Thu May 31 2018
+LND - BOS -
+SF - DAL -
+PHI - LAG -
+Date: Fri Jun 1 2018
+HOU - SHA -
+FLA - SEO -
+BOS - SF -
+Date: Sat Jun 2 2018
+LND - DAL -
+NYXL - LAV -
+FLA - HOU -
+Stage 4 - Week 4
+Date: Wed Jun 6 2018
+SEO - BOS -
+SHA - FLA -
+DAL - HOU -
+Date: Thu Jun 7 2018
+LAV - LND -
+LAG - NYXL -
+SF - PHI -
+Date: Fri Jun 8 2018
+BOS - SHA -
+FLA - DAL -
+PHI - SEO -
+Date: Sat Jun 9 2018
+LND - LAG -
+NYXL - SF -
+HOU - LAV -
+Stage 4 - Week 5
+Date: Wed Jun 13 2018
+LAG - SHA -
+LAV - SF -
+SEO - DAL -
+Date: Thu Jun 14 2018
+HOU - PHI -
+FLA - LND -
+NYXL - BOS -
+Date: Fri Jun 15 2018
+HOU - NYXL -
+LAG - SEO -
+DAL - LAV -
+Date: Sat Jun 16 2018
+PHI - LND -
+SHA - SF -
+BOS - FLA -

@@ -1,5 +1,8 @@
 package nodes;
 
+// @author Cody J. Stephens ({@code https://github.com/csharpsteph/})
+
+// An extension of the Competitor class, representing a team with a city and nickname/mascot.
 public class Team extends Competitor implements Comparable<Competitor> {
 
 	private static final long serialVersionUID = -5409591027771819436L;
@@ -44,6 +47,11 @@ public class Team extends Competitor implements Comparable<Competitor> {
 	public int compareTo(Competitor t)
 	{
 		return t_key.compareTo(t.t_key);
+	}
+
+	@Override
+	public String getName() {
+		return getFullName();
 	}
 
 }
